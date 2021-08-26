@@ -67,7 +67,7 @@ This endpoint requires a TaskId of the task you want to update.
     "content": "Task Content.",
     "createdAt": "createdAt date",
     "updatedAt": "updatedAt date",
-    "isComplete": true/false
+    "iscompleted": true/false
 }
 ```
 
