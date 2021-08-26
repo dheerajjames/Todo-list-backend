@@ -5,9 +5,8 @@ const app = require("./app");
 dotenv.config({ path: "./config.env" });
 mongoose.set('useFindAndModify', false);
 
-const DB_LOCAL = "mongodb+srv://dheerajjames:dheerajjames@cluster0.pb0sg.mongodb.net/ToDo?retryWrites=true&w=majority"
 
-const { PORT } = process.env;
+const { DB_LOCAL, PORT } = process.env;
 
 mongoose
   .connect(DB_LOCAL, {
